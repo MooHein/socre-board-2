@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Scoreboard</title>
+    </head>
+    <body>
+        <div class="title">
+          <h1>Score-board</h1>
+        </div>
+        <div class="container">
+            <!-- HOME Section -->
+            <div>
+                <h1 class="home">HOME</h1>
+                <p class="par" id="home-score">0</p>
+                <div>
+                    <button class="increase1" onclick="addHome(1)">+1</button> 
+                    <button class="increase1" onclick="addHome(2)">+2</button> 
+                    <button class="increase1" onclick="addHome(3)">+3</button> 
+                </div>
+            </div> 
+            
+            <!-- GUEST Section -->
+            <div>
+                <h1 class="guest">GUEST</h1>
+                <p class="par" id="guest-score">0</p>
+                <div>
+                    <button class="increase1" onclick="addGuest(1)">+1</button> 
+                    <button class="increase1" onclick="addGuest(2)">+2</button> 
+                    <button class="increase1" onclick="addGuest(3)">+3</button> 
+                </div>
+            </div>
+        </div>  
+        <button class="reset-btn" id="reset-btn" onclick="resetScores()">Reset</button>
+        <script src="index.js"></script>
+    </body>
+</html>
