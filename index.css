@@ -12,6 +12,7 @@ body {
 }
 
 .title {
+    margin: 5px;
     font-family: "digital-7", sans-serif;
     text-shadow: 2px 2px 10px white;
     display: inline;
